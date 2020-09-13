@@ -1,0 +1,34 @@
+.bg-cover
+{
+    background-image: url("../images/background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+
+}
+
+.center-me
+{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.form-signin
+{
+    padding: 20px;
+    text-align: center;
+}
+
+input
+{
+    margin-bottom: 10px;
+}
+
+.d-block
+{
+    height: 300px;
+    width : 500px;
+}

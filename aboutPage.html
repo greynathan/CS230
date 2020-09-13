@@ -5,69 +5,50 @@
         <title>
             About
         </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/aboutPage.css">
     </head>
 
-    <style type="text/css">
-
-    .about
-    {
-    padding: 50px;
-    color:white;
-    background: #556677;
-    letter-spacing: .1em;
-    text-shadow: 1px 1px black;
-    text-align: center;
-    box-shadow: 0 8px 16px 0 black
-    }
-
-    .column
-    {
-        float: left;
-        width: 24.4%;
-        margin-bottom: 8px;
-        padding: 0 4px;
-    } 
-
-    .card
-    {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        margin: 8px;
-    }
-
-    .container
-    {
-        padding: 0 16px
-    }
-    
-    .title
-    {
-        color: black;
-        text-shadow: .5px .5px black;
-    }
-
-    .button
-    {
-        border: none;
-        outline: 0;
-        display: inline-block;
-        padding: 8px;
-        color:white;
-        background-color: #000;
-        text-align: center;
-        cursor: pointer;
-        width: 100%
-    }
-
-    </style>
-
     <body style="font-family: consolas;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">My Website Name</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+
         <div class="about">
             <h1>About Page</h1>
             <p>Hello, I am Nathan Grey. I am a current Computer Science student here at WVU. I am creating this website for my CS230 class</p>
             <p>ntg0006@mix.wvu.edu</p>
         </div>
 
-        <h2 style="text-align:center">Facts About Me</h2>
+        <h2 style="text-align:center; margin-top: 10px">Facts About Me</h2>
         <div class = "row">
             <div class = "column">
                 <div class= "card">
@@ -113,7 +94,7 @@
                 <div class= "card">
                     <img src = "images/country.jpg" alt = "Country" style = "width:200px; height: 150px">
                     <div class="container">
-                        <h2 class = "title">Favorite Type of Music</h2>
+                        <h2 class = "title">Favorite Music</h2>
                         <p>Country</p>
                         <p>While I'm not very country myself, theres nothing better than jamming out to a nice Toby Keith song. I also like all types of other music as well.</p>
                         <form action = "https://www.rollingstone.com/music/music-lists/100-greatest-country-songs-of-all-time-11200/">

@@ -1,0 +1,48 @@
+.about
+    {
+    padding: 40px;
+    color:white;
+    background: #556677;
+    letter-spacing: .1em;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 black;
+    }
+
+    .column
+    {
+        float: left;
+        width: 24.4%;
+        margin-bottom: 8px;
+        padding: 0 4px;
+    } 
+
+    .card
+    {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        margin: 8px;
+    }
+
+    .container
+    {
+        padding: 0 16px;
+    }
+    
+    .title
+    {
+        color: black;
+        text-shadow: .5px .5px black;
+    }
+
+    .button
+    {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color:white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%
+    }
